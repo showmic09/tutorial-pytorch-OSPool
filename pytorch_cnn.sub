@@ -3,9 +3,9 @@
 +SingularityImage = "osdf:///ospool/uc-shared/public/OSG-Staff/pytorch-2.1.1.sif" 
 
 # set the log, error and output files 
-log = pytorch_cnn.log.txt
-error = pytorch_cnn.err.txt
-output = pytorch_cnn.out.txt
+log = logs/pytorch_cnn.log.txt
+error = logs/pytorch_cnn.err.txt
+output = output/pytorch_cnn.out.txt
 
 # set the executable to run
 executable = pytorch_cnn.sh
